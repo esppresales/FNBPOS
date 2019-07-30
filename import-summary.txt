@@ -1,0 +1,1279 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Epson_B_POS:
+* .DS_Store
+* .gitignore
+* .gitmodules
+* .idea/
+* .idea/.name
+* .idea/codeStyleSettings.xml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/dictionaries/
+* .idea/dictionaries/ivanfoong.xml
+* .idea/encodings.xml
+* .idea/inspectionProfiles/
+* .idea/inspectionProfiles/Project_Default.xml
+* .idea/inspectionProfiles/profiles_settings.xml
+* .idea/libraries/
+* .idea/libraries/android_support_v4.xml
+* .idea/libraries/android_support_v41.xml
+* .idea/libraries/annotations.xml
+* .idea/libraries/gradle_wrapper.xml
+* .idea/libraries/gson_2_2_4.xml
+* .idea/libraries/nineoldandroids_2_4_0.xml
+* .idea/libraries/okhttp_1_6_0.xml
+* .idea/libraries/picasso_2_2_0.xml
+* .idea/libraries/retrofit_1_5_1.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* Epson POS Mock.iml
+* ant.properties
+* build.xml
+* keys/
+* keys/keystore
+* out/
+* out/.DS_Store
+* out/production/
+* out/production/.DS_Store
+* out/production/Android Sliding Layer/
+* out/production/Android Sliding Layer/com/
+* out/production/Android Sliding Layer/com/slidinglayer/
+* out/production/Android Sliding Layer/com/slidinglayer/BuildConfig.class
+* out/production/Android Sliding Layer/com/slidinglayer/R$attr.class
+* out/production/Android Sliding Layer/com/slidinglayer/R$id.class
+* out/production/Android Sliding Layer/com/slidinglayer/R$styleable.class
+* out/production/Android Sliding Layer/com/slidinglayer/R.class
+* out/production/Android Sliding Layer/com/slidinglayer/SlidingLayer$1.class
+* out/production/Android Sliding Layer/com/slidinglayer/SlidingLayer$OnInteractListener.class
+* out/production/Android Sliding Layer/com/slidinglayer/SlidingLayer.class
+* out/production/EnhancedListView/
+* out/production/EnhancedListView/de/
+* out/production/EnhancedListView/de/timroes/
+* out/production/EnhancedListView/de/timroes/android/
+* out/production/EnhancedListView/de/timroes/android/listview/
+* out/production/EnhancedListView/de/timroes/android/listview/BuildConfig.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$1.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$2.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$3.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$4.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$5.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$6.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$HideUndoPopupHandler.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$OnDismissCallback.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$OnShouldSwipeCallback.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$PendingDismissData.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$SwipeDirection.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$UndoClickListener.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$UndoStyle.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView$Undoable.class
+* out/production/EnhancedListView/de/timroes/android/listview/EnhancedListView.class
+* out/production/EnhancedListView/de/timroes/android/listview/R$anim.class
+* out/production/EnhancedListView/de/timroes/android/listview/R$attr.class
+* out/production/EnhancedListView/de/timroes/android/listview/R$color.class
+* out/production/EnhancedListView/de/timroes/android/listview/R$dimen.class
+* out/production/EnhancedListView/de/timroes/android/listview/R$drawable.class
+* out/production/EnhancedListView/de/timroes/android/listview/R$id.class
+* out/production/EnhancedListView/de/timroes/android/listview/R$layout.class
+* out/production/EnhancedListView/de/timroes/android/listview/R$string.class
+* out/production/EnhancedListView/de/timroes/android/listview/R$style.class
+* out/production/EnhancedListView/de/timroes/android/listview/R.class
+* out/production/Epson POS Mock/
+* out/production/Epson POS Mock/Epson POS Mock.apk
+* out/production/Epson POS Mock/com/
+* out/production/Epson POS Mock/com/echo/
+* out/production/Epson POS Mock/com/echo/holographlibrary/
+* out/production/Epson POS Mock/com/echo/holographlibrary/BuildConfig.class
+* out/production/Epson POS Mock/com/echo/holographlibrary/R$attr.class
+* out/production/Epson POS Mock/com/echo/holographlibrary/R$drawable.class
+* out/production/Epson POS Mock/com/echo/holographlibrary/R$id.class
+* out/production/Epson POS Mock/com/echo/holographlibrary/R$styleable.class
+* out/production/Epson POS Mock/com/echo/holographlibrary/R.class
+* out/production/Epson POS Mock/com/gettingreal/
+* out/production/Epson POS Mock/com/gettingreal/bpos/
+* out/production/Epson POS Mock/com/gettingreal/bpos/AssetDatabaseOpenHelper.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/AssetOpenHelper.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/BuildConfig.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CartFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CartFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CartFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CartFragment$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CartFragment$CartItemAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CartFragment$TableNumberAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CartFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryAddFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryAddFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryAddFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment$CategoryListAdapter$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment$CategoryListAdapter$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment$CategoryListAdapter$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment$CategoryListAdapter$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment$CategoryListAdapter$5$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment$CategoryListAdapter$5.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment$CategoryListAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment$PrinterSpinnerAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CategoryManagementFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$5.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$6.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$7.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$8.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$9.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$OrderItemAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment$TableNumberAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/CheckoutFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/DetailFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/DetailFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/DetailFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/DetailFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/GridViewItemLayout.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/InitialServerAddressDialog$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/InitialServerAddressDialog$InitialServerAddressDialogListener.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/InitialServerAddressDialog.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/LoginActivity$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/LoginActivity$CopyAssetsTask.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/LoginActivity.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/LoginDialog$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/LoginDialog$LoginDialogListener.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/LoginDialog.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MenuActivity$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MenuActivity$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MenuActivity$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MenuActivity.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MenuFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MenuFragment$MenuAdapter$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MenuFragment$MenuAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MenuFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MyApplication$1$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MyApplication$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/MyApplication.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderEditDialog$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderEditDialog$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderEditDialog$3$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderEditDialog$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderEditDialog$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderEditDialog$5.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderEditDialog$OrderEditDialogListener.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderEditDialog.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$1$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$3$1$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$3$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$4$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$4$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$OrderItemIndividual.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$OrderItemsAdapter$1$1$1$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$OrderItemsAdapter$1$1$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$OrderItemsAdapter$1$1$2$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$OrderItemsAdapter$1$1$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$OrderItemsAdapter$1$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$OrderItemsAdapter$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment$OrderItemsAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListDetailFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$1$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$2$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$2$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$2$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$5.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$OrderListAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment$TableNumberFilterAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderListFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderSentDialog$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrderSentDialog.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrdersActivity$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/OrdersActivity.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PaymentActivity$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PaymentActivity$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PaymentActivity$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PaymentActivity$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PaymentActivity$5.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PaymentActivity$6.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PaymentActivity$7.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PaymentActivity.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrintOrderTask$OnPrintOrderTaskCompleted.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrintOrderTask.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrintReceiptTask$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrintReceiptTask$OnPrintReceiptTaskCompleted.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrintReceiptTask.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterAddFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterAddFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterAddFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterManagementFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterManagementFragment$PrinterListAdapter$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterManagementFragment$PrinterListAdapter$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterManagementFragment$PrinterListAdapter$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterManagementFragment$PrinterListAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterManagementFragment$TestPrintTask.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/PrinterManagementFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductAddFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductAddFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductAddFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductAddFragment$CategorySpinnerAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductAddFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductEditFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductEditFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductEditFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductEditFragment$4$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductEditFragment$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductEditFragment$5.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductEditFragment$CategorySpinnerAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductEditFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductManagementFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductManagementFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductManagementFragment$ProductAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ProductManagementFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$anim.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$attr.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$color.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$dimen.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$drawable.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$id.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$layout.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$menu.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$string.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$style.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R$styleable.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/R.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReceiptHeaderManagementFragment$ReceiptHeaderListAdapter$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReceiptHeaderManagementFragment$ReceiptHeaderListAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReceiptHeaderManagementFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$3$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$3$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$3$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$3$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$3$5.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$3$6.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListDetailFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListFragment$1$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListFragment$1$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListFragment$EODReportListAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListFragment$MonthlyReportListAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportListFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportsActivity$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ReportsActivity.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SettingActivity$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SettingActivity$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SettingActivity$SettingAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SettingActivity.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SettingHelper.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SlidingMenuOptionAdapter$Option.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SlidingMenuOptionAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SlidingMenuOptionAdminAdapter$Option.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SlidingMenuOptionAdminAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SlidingMenuOptionAdminItemClickListener.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SlidingMenuOptionItemClickListener.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SquareImageView.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SurchargeManagementFragment$SurchargeListAdapter$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SurchargeManagementFragment$SurchargeListAdapter$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SurchargeManagementFragment$SurchargeListAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SurchargeManagementFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$RestoreDataTask.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$10.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$11.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$12.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$3.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$4.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$5.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$6.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$7.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$8.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask$9.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment$UploadDataTask.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/SyncManagementFragment.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/TableActivity$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/TableActivity$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/TableActivity.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/TableAdapter$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/TableAdapter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/TableAddDialog$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/TableAddDialog$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/TableAddDialog.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/UIDGenerator.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/IServerAPI.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerAPIClient.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerBasicResponse.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerCategory.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerOrder.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerOrderItem.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerPostOrderResponse.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerPostReceiptResponse.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerPrinter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerProduct.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerReceipt.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerReceiptHeader.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerStatus.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerSurcharge.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/ServerTable.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/report/
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/report/ServerEODReport.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/report/ServerMonthlyReport.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/api/report/ServerReport.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/ImageHelper.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PaymentHelper.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PrintHelper$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PrintHelper$PrintJob.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PrintHelper$PrintJobTimerTask$1$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PrintHelper$PrintJobTimerTask$1$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PrintHelper$PrintJobTimerTask$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PrintHelper$PrintJobTimerTask.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PrintHelper$PrintTask.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PrintHelper$PrintTaskParam.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/PrintHelper.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/helper/ServerStatusMenuHelper.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSCategory.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSOrder$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSOrder$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSOrder$OrderingMode.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSOrder.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSOrderItem.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSPrinter.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSProduct.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSReceipt.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSReceiptHeader.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSSurcharge.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/model/POSTable.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ui/
+* out/production/Epson POS Mock/com/gettingreal/bpos/ui/CustomGridView.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ui/OrderItemRemarkDialogFragment$1.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ui/OrderItemRemarkDialogFragment$2.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ui/OrderItemRemarkDialogFragment$OrderItemRemarkDialogFragmentListener.class
+* out/production/Epson POS Mock/com/gettingreal/bpos/ui/OrderItemRemarkDialogFragment.class
+* out/production/Epson POS Mock/com/jess/
+* out/production/Epson POS Mock/com/jess/ui/
+* out/production/Epson POS Mock/com/jess/ui/BuildConfig.class
+* out/production/Epson POS Mock/com/jess/ui/R$attr.class
+* out/production/Epson POS Mock/com/jess/ui/R$drawable.class
+* out/production/Epson POS Mock/com/jess/ui/R$id.class
+* out/production/Epson POS Mock/com/jess/ui/R$layout.class
+* out/production/Epson POS Mock/com/jess/ui/R$string.class
+* out/production/Epson POS Mock/com/jess/ui/R$styleable.class
+* out/production/Epson POS Mock/com/jess/ui/R.class
+* out/production/Epson POS Mock/com/slidinglayer/
+* out/production/Epson POS Mock/com/slidinglayer/BuildConfig.class
+* out/production/Epson POS Mock/com/slidinglayer/R$attr.class
+* out/production/Epson POS Mock/com/slidinglayer/R$id.class
+* out/production/Epson POS Mock/com/slidinglayer/R$styleable.class
+* out/production/Epson POS Mock/com/slidinglayer/R.class
+* out/production/Epson POS Mock/de/
+* out/production/Epson POS Mock/de/timroes/
+* out/production/Epson POS Mock/de/timroes/android/
+* out/production/Epson POS Mock/de/timroes/android/listview/
+* out/production/Epson POS Mock/de/timroes/android/listview/BuildConfig.class
+* out/production/Epson POS Mock/de/timroes/android/listview/R$anim.class
+* out/production/Epson POS Mock/de/timroes/android/listview/R$color.class
+* out/production/Epson POS Mock/de/timroes/android/listview/R$dimen.class
+* out/production/Epson POS Mock/de/timroes/android/listview/R$drawable.class
+* out/production/Epson POS Mock/de/timroes/android/listview/R$id.class
+* out/production/Epson POS Mock/de/timroes/android/listview/R$layout.class
+* out/production/Epson POS Mock/de/timroes/android/listview/R$string.class
+* out/production/Epson POS Mock/de/timroes/android/listview/R$style.class
+* out/production/Epson POS Mock/de/timroes/android/listview/R.class
+* out/production/HoloGraphLibrary/
+* out/production/HoloGraphLibrary/com/
+* out/production/HoloGraphLibrary/com/echo/
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/Bar.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/BarGraph$OnBarClickedListener.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/BarGraph.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/BuildConfig.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/HoloGraphAnimate.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/Line.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/LineGraph$OnPointClickedListener.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/LineGraph.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/LinePoint.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/PieGraph$1.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/PieGraph$OnSliceClickedListener.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/PieGraph.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/PieSlice.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/R$attr.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/R$drawable.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/R$id.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/R$styleable.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/R.class
+* out/production/HoloGraphLibrary/com/echo/holographlibrary/Utils.class
+* out/production/NineOldAndroids/
+* out/production/NineOldAndroids/com/
+* out/production/NineOldAndroids/com/nineoldandroids/
+* out/production/NineOldAndroids/com/nineoldandroids/BuildConfig.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/
+* out/production/NineOldAndroids/com/nineoldandroids/animation/Animator$AnimatorListener.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/Animator.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/AnimatorInflater.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/AnimatorListenerAdapter.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/AnimatorSet$1.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/AnimatorSet$AnimatorSetListener.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/AnimatorSet$Builder.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/AnimatorSet$Dependency.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/AnimatorSet$DependencyListener.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/AnimatorSet$Node.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/AnimatorSet.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ArgbEvaluator.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/FloatEvaluator.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/FloatKeyframeSet.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/IntEvaluator.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/IntKeyframeSet.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/Keyframe$FloatKeyframe.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/Keyframe$IntKeyframe.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/Keyframe$ObjectKeyframe.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/Keyframe.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/KeyframeSet.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ObjectAnimator.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$1.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$10.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$11.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$12.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$13.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$14.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$2.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$3.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$4.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$5.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$6.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$7.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$8.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat$9.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PreHoneycombCompat.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PropertyValuesHolder$1.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PropertyValuesHolder$FloatPropertyValuesHolder.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PropertyValuesHolder$IntPropertyValuesHolder.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/PropertyValuesHolder.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/TimeAnimator$TimeListener.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/TimeAnimator.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/TypeEvaluator.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ValueAnimator$1.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ValueAnimator$2.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ValueAnimator$3.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ValueAnimator$4.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ValueAnimator$5.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ValueAnimator$AnimationHandler.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ValueAnimator$AnimatorUpdateListener.class
+* out/production/NineOldAndroids/com/nineoldandroids/animation/ValueAnimator.class
+* out/production/NineOldAndroids/com/nineoldandroids/util/
+* out/production/NineOldAndroids/com/nineoldandroids/util/FloatProperty.class
+* out/production/NineOldAndroids/com/nineoldandroids/util/IntProperty.class
+* out/production/NineOldAndroids/com/nineoldandroids/util/NoSuchPropertyException.class
+* out/production/NineOldAndroids/com/nineoldandroids/util/Property.class
+* out/production/NineOldAndroids/com/nineoldandroids/util/ReflectiveProperty.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewHelper$Honeycomb.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewHelper.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimator.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorHC$1.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorHC$AnimatorEventListener.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorHC$NameValuesHolder.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorHC$PropertyBundle.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorHC.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorICS$1.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorICS.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorPreHC$1.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorPreHC$AnimatorEventListener.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorPreHC$NameValuesHolder.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorPreHC$PropertyBundle.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/ViewPropertyAnimatorPreHC.class
+* out/production/NineOldAndroids/com/nineoldandroids/view/animation/
+* out/production/NineOldAndroids/com/nineoldandroids/view/animation/AnimatorProxy.class
+* out/production/SwipeListView/
+* out/production/SwipeListView/com/
+* out/production/SwipeListView/com/fortysevendeg/
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/BaseSwipeListViewListener.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/BuildConfig.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/R$attr.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/R$id.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/R$styleable.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/R.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListView$1.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListView.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewListener.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$1.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$10.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$2.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$3.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$4.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$5.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$6.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$7$1.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$7.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$8.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$9.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener$PendingDismissData.class
+* out/production/SwipeListView/com/fortysevendeg/swipelistview/SwipeListViewTouchListener.class
+* out/production/SwipeListView/com/nineoldandroids/
+* out/production/SwipeListView/com/nineoldandroids/BuildConfig.class
+* out/production/SwipeListView/com/nineoldandroids/R$attr.class
+* out/production/SwipeListView/com/nineoldandroids/R$id.class
+* out/production/SwipeListView/com/nineoldandroids/R$styleable.class
+* out/production/SwipeListView/com/nineoldandroids/R.class
+* out/production/TwoWayGridView/
+* out/production/TwoWayGridView/.DS_Store
+* out/production/TwoWayGridView/com/
+* out/production/TwoWayGridView/com/jess/
+* out/production/TwoWayGridView/com/jess/ui/
+* out/production/TwoWayGridView/com/jess/ui/BuildConfig.class
+* out/production/TwoWayGridView/com/jess/ui/R$attr.class
+* out/production/TwoWayGridView/com/jess/ui/R$drawable.class
+* out/production/TwoWayGridView/com/jess/ui/R$id.class
+* out/production/TwoWayGridView/com/jess/ui/R$layout.class
+* out/production/TwoWayGridView/com/jess/ui/R$string.class
+* out/production/TwoWayGridView/com/jess/ui/R$styleable.class
+* out/production/TwoWayGridView/com/jess/ui/R.class
+* out/production/TwoWayGridView/com/jess/ui/ScrollBarDrawable.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$1.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$CheckForKeyLongPress.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$CheckForLongPress.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$CheckForTap.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$HorizontalTouchHandler$1.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$HorizontalTouchHandler$HorizontalFlingRunnable$1.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$HorizontalTouchHandler$HorizontalFlingRunnable.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$HorizontalTouchHandler$HorizontalPositionScroller.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$HorizontalTouchHandler.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$LayoutParams.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$OnScrollListener.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$PerformClick.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$RecycleBin.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$RecyclerListener.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$SavedState$1.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$SavedState.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$TouchHandler$1.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$TouchHandler$FlingRunnable.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$TouchHandler$PositionScroller.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$TouchHandler.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$VerticalTouchHandler$1.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$VerticalTouchHandler$VerticalFlingRunnable$1.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$VerticalTouchHandler$VerticalFlingRunnable.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$VerticalTouchHandler$VerticalPositionScroller.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$VerticalTouchHandler.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView$WindowRunnnable.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAbsListView.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAdapterView$1.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAdapterView$AdapterContextMenuInfo.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAdapterView$AdapterDataSetObserver.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAdapterView$OnItemClickListener.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAdapterView$OnItemLongClickListener.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAdapterView$OnItemSelectedListener.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAdapterView$SelectionNotifier.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayAdapterView.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayGridView$1.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayGridView$GridBuilder.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayGridView$HorizontalGridBuilder.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayGridView$VerticalGridBuilder.class
+* out/production/TwoWayGridView/com/jess/ui/TwoWayGridView.class
+* proguard-project.txt
+* vendors/
+* vendors/EnhancedListView/
+* vendors/EnhancedListView/.git
+* vendors/EnhancedListView/.gitignore
+* vendors/EnhancedListView/.idea/
+* vendors/EnhancedListView/.idea/.name
+* vendors/EnhancedListView/.idea/compiler.xml
+* vendors/EnhancedListView/.idea/copyright/
+* vendors/EnhancedListView/.idea/copyright/profiles_settings.xml
+* vendors/EnhancedListView/.idea/encodings.xml
+* vendors/EnhancedListView/.idea/gradle.xml
+* vendors/EnhancedListView/.idea/misc.xml
+* vendors/EnhancedListView/.idea/modules.xml
+* vendors/EnhancedListView/.idea/scopes/
+* vendors/EnhancedListView/.idea/scopes/scope_settings.xml
+* vendors/EnhancedListView/.idea/vcs.xml
+* vendors/EnhancedListView/.idea/workspace.xml
+* vendors/EnhancedListView/EnhancedListView/
+* vendors/EnhancedListView/EnhancedListView/.idea/
+* vendors/EnhancedListView/EnhancedListView/.idea/.name
+* vendors/EnhancedListView/EnhancedListView/.idea/compiler.xml
+* vendors/EnhancedListView/EnhancedListView/.idea/copyright/
+* vendors/EnhancedListView/EnhancedListView/.idea/copyright/profiles_settings.xml
+* vendors/EnhancedListView/EnhancedListView/.idea/encodings.xml
+* vendors/EnhancedListView/EnhancedListView/.idea/gradle.xml
+* vendors/EnhancedListView/EnhancedListView/.idea/misc.xml
+* vendors/EnhancedListView/EnhancedListView/.idea/modules.xml
+* vendors/EnhancedListView/EnhancedListView/.idea/scopes/
+* vendors/EnhancedListView/EnhancedListView/.idea/scopes/scope_settings.xml
+* vendors/EnhancedListView/EnhancedListView/.idea/vcs.xml
+* vendors/EnhancedListView/EnhancedListView/.idea/workspace.xml
+* vendors/EnhancedListView/EnhancedListView/EnhancedListView.iml
+* vendors/EnhancedListView/EnhancedListView/build.gradle
+* vendors/EnhancedListView/EnhancedListView/libs/
+* vendors/EnhancedListView/EnhancedListView/libs/annotations.jar
+* vendors/EnhancedListView/EnhancedListView/local.properties
+* vendors/EnhancedListView/EnhancedListView/src/
+* vendors/EnhancedListView/EnhancedListView/src/main/
+* vendors/EnhancedListView/EnhancedListView/src/main/AndroidManifest.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/EnhancedListView.iml
+* vendors/EnhancedListView/EnhancedListView/src/main/gen/
+* vendors/EnhancedListView/EnhancedListView/src/main/gen/de/
+* vendors/EnhancedListView/EnhancedListView/src/main/gen/de/timroes/
+* vendors/EnhancedListView/EnhancedListView/src/main/gen/de/timroes/android/
+* vendors/EnhancedListView/EnhancedListView/src/main/gen/de/timroes/android/listview/
+* vendors/EnhancedListView/EnhancedListView/src/main/gen/de/timroes/android/listview/BuildConfig.java
+* vendors/EnhancedListView/EnhancedListView/src/main/gen/de/timroes/android/listview/Manifest.java
+* vendors/EnhancedListView/EnhancedListView/src/main/gen/de/timroes/android/listview/R.java
+* vendors/EnhancedListView/EnhancedListView/src/main/java/
+* vendors/EnhancedListView/EnhancedListView/src/main/java/de/
+* vendors/EnhancedListView/EnhancedListView/src/main/java/de/timroes/
+* vendors/EnhancedListView/EnhancedListView/src/main/java/de/timroes/android/
+* vendors/EnhancedListView/EnhancedListView/src/main/java/de/timroes/android/listview/
+* vendors/EnhancedListView/EnhancedListView/src/main/java/de/timroes/android/listview/EnhancedListView.java
+* vendors/EnhancedListView/EnhancedListView/src/main/res/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/anim/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/anim/elv_popup_hide.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/anim/elv_popup_show.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-hdpi/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-hdpi/elv_ic_action_undo.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-hdpi/elv_toast_frame.9.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-ldpi/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-ldpi/elv_ic_action_undo.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-ldpi/elv_toast_frame.9.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-mdpi/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-mdpi/elv_ic_action_undo.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-mdpi/elv_toast_frame.9.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-xhdpi/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-xhdpi/elv_ic_action_undo.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-xhdpi/elv_toast_frame.9.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-xxhdpi/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-xxhdpi/elv_ic_action_undo.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable-xxhdpi/elv_toast_frame.9.png
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable/elv_popup_bg.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable/elv_undo_btn_bg.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable/elv_undo_btn_bg_focused.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/drawable/elv_undo_btn_bg_pressed.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/layout-v19/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/layout-v19/elv_undo_popup.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/layout/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/layout/elv_undo_popup.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/values-v19/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/values-v19/colors.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/values/
+* vendors/EnhancedListView/EnhancedListView/src/main/res/values/colors.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/values/dimens.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/values/strings.xml
+* vendors/EnhancedListView/EnhancedListView/src/main/res/values/styles.xml
+* vendors/EnhancedListView/EnhancedListViewDemo/
+* vendors/EnhancedListView/EnhancedListViewDemo/build.gradle
+* vendors/EnhancedListView/EnhancedListViewDemo/src/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/AndroidManifest.xml
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/ic_launcher-web.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/java/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/java/de/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/java/de/timroes/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/java/de/timroes/android/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/java/de/timroes/android/listviewdemo/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/java/de/timroes/android/listviewdemo/MainActivity.java
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-hdpi/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-hdpi/drawer_shadow.9.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-hdpi/ic_action_delete.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-hdpi/ic_action_done.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-hdpi/ic_action_settings.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-hdpi/ic_drawer.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-hdpi/ic_launcher.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-hdpi/ic_undo.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-mdpi/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-mdpi/drawer_shadow.9.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-mdpi/ic_action_delete.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-mdpi/ic_action_done.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-mdpi/ic_action_settings.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-mdpi/ic_drawer.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-mdpi/ic_launcher.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-mdpi/ic_undo.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xhdpi/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xhdpi/drawer_shadow.9.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xhdpi/ic_action_delete.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xhdpi/ic_action_done.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xhdpi/ic_action_settings.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xhdpi/ic_drawer.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xhdpi/ic_launcher.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xhdpi/ic_undo.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xxhdpi/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xxhdpi/ic_action_delete.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xxhdpi/ic_action_done.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xxhdpi/ic_action_settings.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xxhdpi/ic_launcher.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable-xxhdpi/ic_undo.png
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/drawable/section_header.xml
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/layout/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/layout/activity_main.xml
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/layout/list_item.xml
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/menu/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/menu/main.xml
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/values/
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/values/colors.xml
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/values/prefs.xml
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/values/strings.xml
+* vendors/EnhancedListView/EnhancedListViewDemo/src/main/res/values/styles.xml
+* vendors/EnhancedListView/README.md
+* vendors/EnhancedListView/build.gradle
+* vendors/EnhancedListView/gradle/
+* vendors/EnhancedListView/gradle/wrapper/
+* vendors/EnhancedListView/gradle/wrapper/gradle-wrapper.jar
+* vendors/EnhancedListView/gradle/wrapper/gradle-wrapper.properties
+* vendors/EnhancedListView/gradlew
+* vendors/EnhancedListView/gradlew.bat
+* vendors/EnhancedListView/local.properties
+* vendors/EnhancedListView/settings.gradle
+* vendors/HoloGraphLibrary/
+* vendors/HoloGraphLibrary/.settings/
+* vendors/HoloGraphLibrary/.settings/org.eclipse.jdt.core.prefs
+* vendors/HoloGraphLibrary/AndroidManifest.xml
+* vendors/HoloGraphLibrary/HoloGraphLibrary.iml
+* vendors/HoloGraphLibrary/LICENSE.txt
+* vendors/HoloGraphLibrary/NOTICE.txt
+* vendors/HoloGraphLibrary/build.gradle
+* vendors/HoloGraphLibrary/gen/
+* vendors/HoloGraphLibrary/gen/com/
+* vendors/HoloGraphLibrary/gen/com/echo/
+* vendors/HoloGraphLibrary/gen/com/echo/holographlibrary/
+* vendors/HoloGraphLibrary/gen/com/echo/holographlibrary/BuildConfig.java
+* vendors/HoloGraphLibrary/gen/com/echo/holographlibrary/Manifest.java
+* vendors/HoloGraphLibrary/gen/com/echo/holographlibrary/R.java
+* vendors/HoloGraphLibrary/proguard-project.txt
+* vendors/HoloGraphLibrary/project.properties
+* vendors/HoloGraphLibrary/res/
+* vendors/HoloGraphLibrary/res/drawable-xhdpi/
+* vendors/HoloGraphLibrary/res/drawable-xhdpi/popup_black.9.png
+* vendors/HoloGraphLibrary/res/values/
+* vendors/HoloGraphLibrary/res/values/attrs.xml
+* vendors/HoloGraphLibrary/src/
+* vendors/HoloGraphLibrary/src/com/
+* vendors/HoloGraphLibrary/src/com/echo/
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/Bar.java
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/BarGraph.java
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/HoloGraphAnimate.java
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/Line.java
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/LineGraph.java
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/LinePoint.java
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/PieGraph.java
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/PieSlice.java
+* vendors/HoloGraphLibrary/src/com/echo/holographlibrary/Utils.java
+* vendors/android-sliding-layer-lib/
+* vendors/android-sliding-layer-lib/.git
+* vendors/android-sliding-layer-lib/.gitignore
+* vendors/android-sliding-layer-lib/LICENSE.txt
+* vendors/android-sliding-layer-lib/Library/
+* vendors/android-sliding-layer-lib/Library/Android Sliding Layer.iml
+* vendors/android-sliding-layer-lib/Library/AndroidManifest.xml
+* vendors/android-sliding-layer-lib/Library/build.gradle
+* vendors/android-sliding-layer-lib/Library/gen/
+* vendors/android-sliding-layer-lib/Library/gen/com/
+* vendors/android-sliding-layer-lib/Library/gen/com/slidinglayer/
+* vendors/android-sliding-layer-lib/Library/gen/com/slidinglayer/BuildConfig.java
+* vendors/android-sliding-layer-lib/Library/gen/com/slidinglayer/Manifest.java
+* vendors/android-sliding-layer-lib/Library/gen/com/slidinglayer/R.java
+* vendors/android-sliding-layer-lib/Library/libs/
+* vendors/android-sliding-layer-lib/Library/libs/android-support-v4.jar
+* vendors/android-sliding-layer-lib/Library/pom.xml
+* vendors/android-sliding-layer-lib/Library/project.properties
+* vendors/android-sliding-layer-lib/Library/res/
+* vendors/android-sliding-layer-lib/Library/res/values/
+* vendors/android-sliding-layer-lib/Library/res/values/slidinglayer-attrs.xml
+* vendors/android-sliding-layer-lib/Library/src/
+* vendors/android-sliding-layer-lib/Library/src/com/
+* vendors/android-sliding-layer-lib/Library/src/com/slidinglayer/
+* vendors/android-sliding-layer-lib/Library/src/com/slidinglayer/SlidingLayer.java
+* vendors/android-sliding-layer-lib/README.md
+* vendors/android-sliding-layer-lib/SlidingLayerSample/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/AndroidManifest.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/build.gradle
+* vendors/android-sliding-layer-lib/SlidingLayerSample/ic_launcher-web.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/pom.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-hdpi/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-hdpi/ic_launcher.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-ldpi/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-ldpi/ic_launcher.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-mdpi/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-mdpi/ic_launcher.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-xhdpi/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-xhdpi/button_red.9.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-xhdpi/button_red_pressed.9.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-xhdpi/container_rocket.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-xhdpi/container_rocket_left.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-xhdpi/container_rocket_right.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-xhdpi/ic_launcher.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable-xhdpi/main_screen_rocket.png
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable/button_red_selector.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/drawable/sidebar_shadow.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/layout/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/layout/activity_main.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/values-v11/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/values-v11/styles.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/values-v14/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/values-v14/styles.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/values/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/values/dimensions.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/values/strings.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/values/styles.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/xml/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/res/xml/pref_general_activity.xml
+* vendors/android-sliding-layer-lib/SlidingLayerSample/src/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/src/com/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/src/com/slidinglayersample/
+* vendors/android-sliding-layer-lib/SlidingLayerSample/src/com/slidinglayersample/InitSelectionActivity.java
+* vendors/android-sliding-layer-lib/SlidingLayerSample/src/com/slidinglayersample/MainActivity.java
+* vendors/android-sliding-layer-lib/build.gradle
+* vendors/android-sliding-layer-lib/pom.xml
+* vendors/android-sliding-layer-lib/settings.gradle
+* vendors/picasso/
+* vendors/picasso/.git
+* vendors/picasso/.gitignore
+* vendors/picasso/.travis.yml
+* vendors/picasso/CHANGELOG.md
+* vendors/picasso/CONTRIBUTING.md
+* vendors/picasso/LICENSE.txt
+* vendors/picasso/README.md
+* vendors/picasso/checkstyle.xml
+* vendors/picasso/deploy_website.sh
+* vendors/picasso/picasso-pollexor/
+* vendors/picasso/picasso-pollexor/README.md
+* vendors/picasso/picasso-pollexor/pom.xml
+* vendors/picasso/picasso-pollexor/src/
+* vendors/picasso/picasso-pollexor/src/main/
+* vendors/picasso/picasso-pollexor/src/main/java/
+* vendors/picasso/picasso-pollexor/src/main/java/com/
+* vendors/picasso/picasso-pollexor/src/main/java/com/squareup/
+* vendors/picasso/picasso-pollexor/src/main/java/com/squareup/picasso/
+* vendors/picasso/picasso-pollexor/src/main/java/com/squareup/picasso/pollexor/
+* vendors/picasso/picasso-pollexor/src/main/java/com/squareup/picasso/pollexor/PollexorRequestTransformer.java
+* vendors/picasso/picasso-pollexor/src/test/
+* vendors/picasso/picasso-pollexor/src/test/java/
+* vendors/picasso/picasso-pollexor/src/test/java/com/
+* vendors/picasso/picasso-pollexor/src/test/java/com/squareup/
+* vendors/picasso/picasso-pollexor/src/test/java/com/squareup/picasso/
+* vendors/picasso/picasso-pollexor/src/test/java/com/squareup/picasso/pollexor/
+* vendors/picasso/picasso-pollexor/src/test/java/com/squareup/picasso/pollexor/PollexorRequestTransformerTest.java
+* vendors/picasso/picasso-sample/
+* vendors/picasso/picasso-sample/AndroidManifest.xml
+* vendors/picasso/picasso-sample/lint.xml
+* vendors/picasso/picasso-sample/pom.xml
+* vendors/picasso/picasso-sample/res/
+* vendors/picasso/picasso-sample/res/drawable-hdpi/
+* vendors/picasso/picasso-sample/res/drawable-hdpi/button_disabled.9.png
+* vendors/picasso/picasso-sample/res/drawable-hdpi/button_disabled_focused.9.png
+* vendors/picasso/picasso-sample/res/drawable-hdpi/button_focused.9.png
+* vendors/picasso/picasso-sample/res/drawable-hdpi/button_normal.9.png
+* vendors/picasso/picasso-sample/res/drawable-hdpi/button_pressed.9.png
+* vendors/picasso/picasso-sample/res/drawable-hdpi/contact_picture_placeholder.png
+* vendors/picasso/picasso-sample/res/drawable-hdpi/icon.png
+* vendors/picasso/picasso-sample/res/drawable-hdpi/list_focused.9.png
+* vendors/picasso/picasso-sample/res/drawable-hdpi/list_pressed.9.png
+* vendors/picasso/picasso-sample/res/drawable-hdpi/list_selector_disabled.9.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/
+* vendors/picasso/picasso-sample/res/drawable-mdpi/button_disabled.9.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/button_disabled_focused.9.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/button_focused.9.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/button_normal.9.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/button_pressed.9.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/contact_picture_placeholder.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/icon.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/list_focused.9.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/list_pressed.9.png
+* vendors/picasso/picasso-sample/res/drawable-mdpi/list_selector_disabled.9.png
+* vendors/picasso/picasso-sample/res/drawable-nodpi/
+* vendors/picasso/picasso-sample/res/drawable-nodpi/noise.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/button_disabled.9.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/button_disabled_focused.9.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/button_focused.9.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/button_normal.9.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/button_pressed.9.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/contact_picture_placeholder.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/icon.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/list_focused.9.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/list_pressed.9.png
+* vendors/picasso/picasso-sample/res/drawable-xhdpi/list_selector_disabled.9.png
+* vendors/picasso/picasso-sample/res/drawable-xxhdpi/
+* vendors/picasso/picasso-sample/res/drawable-xxhdpi/icon.png
+* vendors/picasso/picasso-sample/res/drawable-xxxhdpi/
+* vendors/picasso/picasso-sample/res/drawable-xxxhdpi/icon.png
+* vendors/picasso/picasso-sample/res/drawable/
+* vendors/picasso/picasso-sample/res/drawable/button_selector.xml
+* vendors/picasso/picasso-sample/res/drawable/error.jpg
+* vendors/picasso/picasso-sample/res/drawable/list_selector.xml
+* vendors/picasso/picasso-sample/res/drawable/overlay_selector.xml
+* vendors/picasso/picasso-sample/res/drawable/placeholder.jpg
+* vendors/picasso/picasso-sample/res/layout/
+* vendors/picasso/picasso-sample/res/layout/notification_view.xml
+* vendors/picasso/picasso-sample/res/layout/picasso_sample_activity.xml
+* vendors/picasso/picasso-sample/res/layout/picasso_sample_activity_item.xml
+* vendors/picasso/picasso-sample/res/layout/sample_contacts_activity.xml
+* vendors/picasso/picasso-sample/res/layout/sample_contacts_activity_item.xml
+* vendors/picasso/picasso-sample/res/layout/sample_gallery_activity.xml
+* vendors/picasso/picasso-sample/res/layout/sample_gridview_activity.xml
+* vendors/picasso/picasso-sample/res/layout/sample_list_detail_detail.xml
+* vendors/picasso/picasso-sample/res/layout/sample_list_detail_item.xml
+* vendors/picasso/picasso-sample/res/layout/sample_list_detail_list.xml
+* vendors/picasso/picasso-sample/res/layout/sample_widget.xml
+* vendors/picasso/picasso-sample/res/values-land/
+* vendors/picasso/picasso-sample/res/values-land/dimens.xml
+* vendors/picasso/picasso-sample/res/values-w500dp/
+* vendors/picasso/picasso-sample/res/values-w500dp/integers.xml
+* vendors/picasso/picasso-sample/res/values-w600dp/
+* vendors/picasso/picasso-sample/res/values-w600dp/dimens.xml
+* vendors/picasso/picasso-sample/res/values-w600dp/integers.xml
+* vendors/picasso/picasso-sample/res/values-w700dp/
+* vendors/picasso/picasso-sample/res/values-w700dp/integers.xml
+* vendors/picasso/picasso-sample/res/values/
+* vendors/picasso/picasso-sample/res/values/colors.xml
+* vendors/picasso/picasso-sample/res/values/dimens.xml
+* vendors/picasso/picasso-sample/res/values/integers.xml
+* vendors/picasso/picasso-sample/res/values/strings.xml
+* vendors/picasso/picasso-sample/res/values/styles.xml
+* vendors/picasso/picasso-sample/res/values/themes.xml
+* vendors/picasso/picasso-sample/res/xml/
+* vendors/picasso/picasso-sample/res/xml/sample_widget_info.xml
+* vendors/picasso/picasso-sample/src/
+* vendors/picasso/picasso-sample/src/main/
+* vendors/picasso/picasso-sample/src/main/java/
+* vendors/picasso/picasso-sample/src/main/java/com/
+* vendors/picasso/picasso-sample/src/main/java/com/example/
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/Data.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/GrayscaleTransformation.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/PicassoSampleActivity.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/PicassoSampleAdapter.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/SampleContactsActivity.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/SampleContactsAdapter.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/SampleGalleryActivity.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/SampleGridViewActivity.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/SampleGridViewAdapter.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/SampleListDetailActivity.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/SampleListDetailAdapter.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/SampleWidgetProvider.java
+* vendors/picasso/picasso-sample/src/main/java/com/example/picasso/SquaredImageView.java
+* vendors/picasso/picasso/
+* vendors/picasso/picasso/pom.xml
+* vendors/picasso/picasso/src/
+* vendors/picasso/picasso/src/main/
+* vendors/picasso/picasso/src/main/Picasso.iml
+* vendors/picasso/picasso/src/main/java/
+* vendors/picasso/picasso/src/main/java/com/
+* vendors/picasso/picasso/src/main/java/com/squareup/
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Action.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/AssetBitmapHunter.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/BitmapHunter.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Cache.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Callback.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/ContactsPhotoBitmapHunter.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/ContentStreamBitmapHunter.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/DeferredRequestCreator.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Dispatcher.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Downloader.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/FetchAction.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/FileBitmapHunter.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/GetAction.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/ImageViewAction.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/LruCache.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/MarkableInputStream.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/MediaStoreBitmapHunter.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/NetworkBitmapHunter.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/OkHttpDownloader.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Picasso.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/PicassoDrawable.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/PicassoExecutorService.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/RemoteViewsAction.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Request.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/RequestCreator.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/ResourceBitmapHunter.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Stats.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/StatsSnapshot.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Target.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/TargetAction.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Transformation.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/UrlConnectionDownloader.java
+* vendors/picasso/picasso/src/main/java/com/squareup/picasso/Utils.java
+* vendors/picasso/picasso/src/test/
+* vendors/picasso/picasso/src/test/java/
+* vendors/picasso/picasso/src/test/java/com/
+* vendors/picasso/picasso/src/test/java/com/squareup/
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/AssetBitmapHunterTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/BitmapHunterTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/DeferredRequestCreatorTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/DispatcherTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/ImageViewActionTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/LruCacheTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/MarkableInputStreamTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/MediaStoreBitmapHunterTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/NetworkBitmapHunterTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/OkHttpDownloaderTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/PicassoDrawableTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/PicassoTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/RemoteViewsActionTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/RequestCreatorTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/Shadows.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/TargetActionTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/TestTransformation.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/TestUtils.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/UrlConnectionDownloaderTest.java
+* vendors/picasso/picasso/src/test/java/com/squareup/picasso/UtilsTest.java
+* vendors/picasso/picasso/src/test/test.iml
+* vendors/picasso/pom.xml
+* vendors/picasso/website/
+* vendors/picasso/website/index.html
+* vendors/picasso/website/static/
+* vendors/picasso/website/static/app-theme.css
+* vendors/picasso/website/static/app.css
+* vendors/picasso/website/static/bootstrap-combined.min.css
+* vendors/picasso/website/static/bootstrap.min.js
+* vendors/picasso/website/static/debug.png
+* vendors/picasso/website/static/html5shiv.min.js
+* vendors/picasso/website/static/icon-github.png
+* vendors/picasso/website/static/icon-square.png
+* vendors/picasso/website/static/jquery-maven-artifact.min.js
+* vendors/picasso/website/static/jquery.smooth-scroll.min.js
+* vendors/picasso/website/static/logo-square.png
+* vendors/picasso/website/static/prettify.js
+* vendors/picasso/website/static/sample.png
+* vendors/two-way-gridview/
+* vendors/two-way-gridview/.classpath
+* vendors/two-way-gridview/.git
+* vendors/two-way-gridview/.gitignore
+* vendors/two-way-gridview/.project
+* vendors/two-way-gridview/AndroidManifest.xml
+* vendors/two-way-gridview/README.md
+* vendors/two-way-gridview/lib/
+* vendors/two-way-gridview/lib/AndroidManifest.xml
+* vendors/two-way-gridview/lib/TwoWayGridView.iml
+* vendors/two-way-gridview/lib/gen/
+* vendors/two-way-gridview/lib/gen/com/
+* vendors/two-way-gridview/lib/gen/com/jess/
+* vendors/two-way-gridview/lib/gen/com/jess/ui/
+* vendors/two-way-gridview/lib/gen/com/jess/ui/BuildConfig.java
+* vendors/two-way-gridview/lib/gen/com/jess/ui/Manifest.java
+* vendors/two-way-gridview/lib/gen/com/jess/ui/R.java
+* vendors/two-way-gridview/lib/project.properties
+* vendors/two-way-gridview/lib/res/
+* vendors/two-way-gridview/lib/res/drawable-hdpi/
+* vendors/two-way-gridview/lib/res/drawable-hdpi/icon.png
+* vendors/two-way-gridview/lib/res/drawable-hdpi/spinner_black_76.png
+* vendors/two-way-gridview/lib/res/drawable-ldpi/
+* vendors/two-way-gridview/lib/res/drawable-ldpi/icon.png
+* vendors/two-way-gridview/lib/res/drawable-xhdpi/
+* vendors/two-way-gridview/lib/res/drawable-xhdpi/spinner_black_76.png
+* vendors/two-way-gridview/lib/res/drawable/
+* vendors/two-way-gridview/lib/res/drawable/icon.png
+* vendors/two-way-gridview/lib/res/drawable/spinner_black_76.png
+* vendors/two-way-gridview/lib/res/layout/
+* vendors/two-way-gridview/lib/res/layout/main.xml
+* vendors/two-way-gridview/lib/res/values/
+* vendors/two-way-gridview/lib/res/values/attrs.xml
+* vendors/two-way-gridview/lib/res/values/strings.xml
+* vendors/two-way-gridview/lib/src/
+* vendors/two-way-gridview/lib/src/com/
+* vendors/two-way-gridview/lib/src/com/jess/
+* vendors/two-way-gridview/lib/src/com/jess/ui/
+* vendors/two-way-gridview/lib/src/com/jess/ui/ScrollBarDrawable.java
+* vendors/two-way-gridview/lib/src/com/jess/ui/TwoWayAbsListView.java
+* vendors/two-way-gridview/lib/src/com/jess/ui/TwoWayAdapterView.java
+* vendors/two-way-gridview/lib/src/com/jess/ui/TwoWayGridView.java
+* vendors/two-way-gridview/project.properties
+* vendors/two-way-gridview/sample/
+* vendors/two-way-gridview/sample/AndroidManifest.xml
+* vendors/two-way-gridview/sample/ant.properties
+* vendors/two-way-gridview/sample/proguard-project.txt
+* vendors/two-way-gridview/sample/project.properties
+* vendors/two-way-gridview/sample/res/
+* vendors/two-way-gridview/sample/res/drawable-hdpi/
+* vendors/two-way-gridview/sample/res/drawable-hdpi/icon.png
+* vendors/two-way-gridview/sample/res/drawable-hdpi/spinner_black_76.png
+* vendors/two-way-gridview/sample/res/drawable-ldpi/
+* vendors/two-way-gridview/sample/res/drawable-ldpi/icon.png
+* vendors/two-way-gridview/sample/res/drawable-xhdpi/
+* vendors/two-way-gridview/sample/res/drawable-xhdpi/spinner_black_76.png
+* vendors/two-way-gridview/sample/res/drawable/
+* vendors/two-way-gridview/sample/res/drawable/icon.png
+* vendors/two-way-gridview/sample/res/drawable/spinner_black_76.png
+* vendors/two-way-gridview/sample/res/layout/
+* vendors/two-way-gridview/sample/res/layout/main.xml
+* vendors/two-way-gridview/sample/res/values/
+* vendors/two-way-gridview/sample/res/values/strings.xml
+* vendors/two-way-gridview/sample/src/
+* vendors/two-way-gridview/sample/src/com/
+* vendors/two-way-gridview/sample/src/com/jess/
+* vendors/two-way-gridview/sample/src/com/jess/demo/
+* vendors/two-way-gridview/sample/src/com/jess/demo/BetterImageView.java
+* vendors/two-way-gridview/sample/src/com/jess/demo/ImageThumbnailAdapter.java
+* vendors/two-way-gridview/sample/src/com/jess/demo/MainActivity.java
+* vendors/two-way-gridview/sample/src/com/jess/demo/ReplaceableBitmapDrawable.java
+From HoloGraphLibrary:
+* HoloGraphLibrary.iml
+* LICENSE.txt
+* NOTICE.txt
+* build.gradle
+* proguard-project.txt
+From Library:
+* Android Sliding Layer.iml
+* build.gradle
+* pom.xml
+From lib:
+* TwoWayGridView.iml
+From main:
+* AndroidManifest.xml
+* EnhancedListView.iml
+* java/
+* java/de/
+* java/de/timroes/
+* java/de/timroes/android/
+* java/de/timroes/android/listview/
+* java/de/timroes/android/listview/EnhancedListView.java
+* res/
+* res/anim/
+* res/anim/elv_popup_hide.xml
+* res/anim/elv_popup_show.xml
+* res/drawable-hdpi/
+* res/drawable-hdpi/elv_ic_action_undo.png
+* res/drawable-hdpi/elv_toast_frame.9.png
+* res/drawable-ldpi/
+* res/drawable-ldpi/elv_ic_action_undo.png
+* res/drawable-ldpi/elv_toast_frame.9.png
+* res/drawable-mdpi/
+* res/drawable-mdpi/elv_ic_action_undo.png
+* res/drawable-mdpi/elv_toast_frame.9.png
+* res/drawable-xhdpi/
+* res/drawable-xhdpi/elv_ic_action_undo.png
+* res/drawable-xhdpi/elv_toast_frame.9.png
+* res/drawable-xxhdpi/
+* res/drawable-xxhdpi/elv_ic_action_undo.png
+* res/drawable-xxhdpi/elv_toast_frame.9.png
+* res/drawable/
+* res/drawable/elv_popup_bg.xml
+* res/drawable/elv_undo_btn_bg.xml
+* res/drawable/elv_undo_btn_bg_focused.xml
+* res/drawable/elv_undo_btn_bg_pressed.xml
+* res/layout-v19/
+* res/layout-v19/elv_undo_popup.xml
+* res/layout/
+* res/layout/elv_undo_popup.xml
+* res/values-v19/
+* res/values-v19/colors.xml
+* res/values/
+* res/values/colors.xml
+* res/values/dimens.xml
+* res/values/strings.xml
+* res/values/styles.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In HoloGraphLibrary:
+* AndroidManifest.xml => holoGraphLibrary/src/main/AndroidManifest.xml
+* res/ => holoGraphLibrary/src/main/res/
+* src/ => holoGraphLibrary/src/main/java/
+In Library:
+* AndroidManifest.xml => library/src/main/AndroidManifest.xml
+* res/ => library/src/main/res/
+* src/ => library/src/main/java/
+In lib:
+* AndroidManifest.xml => lib/src/main/AndroidManifest.xml
+* res/ => lib/src/main/res/
+* src/ => lib/src/main/java/
+In Epson_B_POS:
+* AndroidManifest.xml => epson_B_POS/src/main/AndroidManifest.xml
+* assets/ => epson_B_POS/src/main/assets/
+* libs/nineoldandroids-2.4.0.jar => epson_B_POS/libs/nineoldandroids-2.4.0.jar
+* libs/okhttp-1.6.0.jar => epson_B_POS/libs/okhttp-1.6.0.jar
+* libs/okio-1.0.0.jar => epson_B_POS/libs/okio-1.0.0.jar
+* libs/picasso-2.2.0.jar => epson_B_POS/libs/picasso-2.2.0.jar
+* libs/retrofit-1.5.1.jar => epson_B_POS/libs/retrofit-1.5.1.jar
+* res/ => epson_B_POS/src/main/res/
+* src/ => epson_B_POS/src/main/java/
+* src/.DS_Store => epson_B_POS/src/main/resources/.DS_Store
+* src/com/.DS_Store => epson_B_POS/src/main/resources/com/.DS_Store
+* src/com/gettingreal/.DS_Store => epson_B_POS/src/main/resources/com/gettingreal/.DS_Store
+* src/com/gettingreal/bpos.zip => epson_B_POS/src/main/resources/com/gettingreal/bpos.zip
+* src/com/gettingreal/bpos/.DS_Store => epson_B_POS/src/main/resources/com/gettingreal/bpos/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

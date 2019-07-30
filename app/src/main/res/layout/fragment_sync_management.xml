@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_server_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:labelFor="@+id/edit_text_server_address"
+                android:text="Server IP Address: "/>
+
+            <ImageView
+                android:id="@+id/img_online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_offline"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+            <EditText
+                android:id="@+id/edit_text_server_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/txt_server_address"
+                android:layout_toLeftOf="@id/img_online"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:hint="Server IP Address"
+                android:singleLine="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/button_restore"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background_epson"
+                android:text="Restore from Server"
+                android:textColor="@drawable/button_text_color_white"/>
+
+            <Button
+                android:id="@+id/button_sync"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background_epson"
+                android:text="Sync to Server"
+                android:textColor="@drawable/button_text_color_white"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

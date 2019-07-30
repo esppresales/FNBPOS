@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="?android:attr/actionBarSize">-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <fragment
+                android:id="@+id/cart_fragment"
+                class="com.gettingreal.bpos.CartFragment"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                tools:layout="@layout/fragment_cart">
+                <!-- Preview: layout=@layout/fragment_cart -->
+            </fragment>
+
+            <fragment
+                android:id="@+id/detail_fragment"
+                class="com.gettingreal.bpos.DetailFragment"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/cart_fragment"
+                tools:layout="@layout/fragment_detail">
+                <!-- Preview: layout=@layout/fragment_detail -->
+            </fragment>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/cart_fragment"
+                android:background="#F7F7F7"/>
+        </RelativeLayout>
+
+        <fragment
+            android:id="@+id/menu_fragment"
+            class="com.gettingreal.bpos.MenuFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_menu">
+            <!-- Preview: layout=@layout/fragment_menu -->
+        </fragment>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:onClick="dismissCheckout">
+
+        </View>
+
+        <fragment
+            android:id="@+id/fragment_overlay"
+            class="com.gettingreal.bpos.CheckoutFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_checkout">
+        </fragment>
+    </LinearLayout>
+
+    <com.slidinglayer.SlidingLayer
+        android:id="@+id/slidingLayer"
+        xmlns:slidingLayer="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        slidingLayer:stickTo="left">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/listview_options"
+                android:layout_width="@dimen/menu_width"
+                android:layout_height="match_parent"
+                android:background="#ffffff"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sidebar_shadow"
+                android:onClick="dismissSlidingLayer"/>
+        </LinearLayout>
+    </com.slidinglayer.SlidingLayer>
+</RelativeLayout>

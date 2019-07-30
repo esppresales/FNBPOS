@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/epson">
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_background_epson"
+            android:text="ADD"
+            android:textColor="@drawable/button_text_color_white"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+            android:text="Search Printer"
+            android:background="@drawable/button_background_epson"
+            android:textColor="@drawable/button_text_color_white"
+            android:id="@+id/btnDiscovery" />
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button_background_transparent"
+            android:text="&lt;"
+            android:textColor="@drawable/button_text_color_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@id/button_add"
+            android:layout_toRightOf="@id/button_back"
+            android:gravity="center_vertical"
+            android:text="ADD NEW PRINTER"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+  <!--  <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edit_text_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Printer IP"
+                android:text=""/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available Printers:"
+                android:id="@+id/txtList"
+                android:textSize="23sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000000" />
+
+            <ListView
+                android:id="@+id/lstReceiveData"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:cacheColorHint="#ffffff">
+            </ListView>
+
+        </LinearLayout>
+  <!--  </ScrollView>
+-->
+
+</LinearLayout>

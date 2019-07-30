@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res"/><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\build\generated\res\rs\release"/><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res"><file name="epson_main" path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\drawable\epson_main.png" qualifiers="" type="drawable"/><file name="icon" path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\drawable\icon.png" qualifiers="" type="drawable"/><file name="spinner_black_76" path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\drawable\spinner_black_76.png" qualifiers="" type="drawable"/><file name="icon" path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\drawable-hdpi\icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner_black_76" path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\drawable-hdpi\spinner_black_76.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon" path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\drawable-ldpi\icon.png" qualifiers="ldpi-v4" type="drawable"/><file name="spinner_black_76" path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\drawable-xhdpi\spinner_black_76.png" qualifiers="xhdpi-v4" type="drawable"/><file name="main" path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\values\attrs.xml" qualifiers=""><attr name="gravity">
+        
+        <flag name="top" value="0x30"/>
+        
+        <flag name="bottom" value="0x50"/>
+        
+        <flag name="left" value="0x03"/>
+        
+        <flag name="right" value="0x05"/>
+        
+        <flag name="center_vertical" value="0x10"/>
+        
+        <flag name="fill_vertical" value="0x70"/>
+        
+        <flag name="center_horizontal" value="0x01"/>
+        
+        <flag name="fill_horizontal" value="0x07"/>
+        
+        <flag name="center" value="0x11"/>
+        
+        <flag name="fill" value="0x77"/>
+        
+        <flag name="clip_vertical" value="0x80"/>
+        
+        <flag name="clip_horizontal" value="0x08"/>
+    </attr><attr format="reference" name="gridViewStyle"/><declare-styleable name="TwoWayAbsListView">
+         
+        <attr format="color|reference" name="listSelector"/>
+        
+        <attr format="boolean" name="drawSelectorOnTop"/>
+        
+        <attr format="boolean" name="stackFromBottom"/>
+        
+        <attr format="boolean" name="scrollingCache"/>
+        
+        
+        
+        <attr name="transcriptMode">
+            
+            <enum name="disabled" value="0"/>
+            
+            <enum name="normal" value="1"/>
+            
+            <enum name="alwaysScroll" value="2"/>
+        </attr>
+        
+        <attr format="color" name="cacheColorHint"/>
+        
+        
+        
+        <attr format="boolean" name="smoothScrollbar"/>
+
+        
+        <attr name="scrollDirectionPortrait">
+            
+            <enum name="vertical" value="0"/>
+            
+            <enum name="horizontal" value="1"/>
+        </attr>
+        <attr name="scrollDirectionLandscape">
+            
+            <enum name="vertical" value="0"/>
+            
+            <enum name="horizontal" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="TwoWayGridView">
+        <attr format="dimension" name="horizontalSpacing"/>
+        <attr format="dimension" name="verticalSpacing"/>
+        <attr name="stretchMode">
+            <enum name="none" value="0"/>
+            <enum name="spacingWidth" value="1"/>
+            <enum name="columnWidth" value="2"/>
+            <enum name="spacingWidthUniform" value="3"/>
+        </attr>
+        <attr format="dimension" name="columnWidth"/>
+        <attr format="dimension" name="rowHeight"/>
+        <attr format="integer" min="0" name="numColumns">
+            <enum name="auto_fit" value="-1"/>
+        </attr>
+        <attr format="integer" min="0" name="numRows">
+            <enum name="auto_fit" value="-1"/>
+        </attr>
+        <attr name="gravity"/>
+    </declare-styleable></file><file path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">EverGrid</string></file></source><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\build\generated\res\rs\release"/><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\TwoWayGrid\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="TwoWayGridView">
+        <attr format="dimension" name="horizontalSpacing"/>
+        <attr format="dimension" name="verticalSpacing"/>
+        <attr name="stretchMode">
+            <enum name="none" value="0"/>
+            <enum name="spacingWidth" value="1"/>
+            <enum name="columnWidth" value="2"/>
+            <enum name="spacingWidthUniform" value="3"/>
+        </attr>
+        <attr format="dimension" name="columnWidth"/>
+        <attr format="dimension" name="rowHeight"/>
+        <attr format="integer" min="0" name="numColumns">
+            <enum name="auto_fit" value="-1"/>
+        </attr>
+        <attr format="integer" min="0" name="numRows">
+            <enum name="auto_fit" value="-1"/>
+        </attr>
+        <attr name="gravity"/>
+    </declare-styleable><declare-styleable name="TwoWayAbsListView">
+         
+        <attr format="color|reference" name="listSelector"/>
+        
+        <attr format="boolean" name="drawSelectorOnTop"/>
+        
+        <attr format="boolean" name="stackFromBottom"/>
+        
+        <attr format="boolean" name="scrollingCache"/>
+        
+        
+        
+        <attr name="transcriptMode">
+            
+            <enum name="disabled" value="0"/>
+            
+            <enum name="normal" value="1"/>
+            
+            <enum name="alwaysScroll" value="2"/>
+        </attr>
+        
+        <attr format="color" name="cacheColorHint"/>
+        
+        
+        
+        <attr format="boolean" name="smoothScrollbar"/>
+
+        
+        <attr name="scrollDirectionPortrait">
+            
+            <enum name="vertical" value="0"/>
+            
+            <enum name="horizontal" value="1"/>
+        </attr>
+        <attr name="scrollDirectionLandscape">
+            
+            <enum name="vertical" value="0"/>
+            
+            <enum name="horizontal" value="1"/>
+        </attr>
+    </declare-styleable></configuration></mergedItems></merger>

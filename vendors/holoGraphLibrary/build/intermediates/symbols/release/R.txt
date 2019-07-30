@@ -1,0 +1,32 @@
+int attr barAxisColor 0x7f040001
+int attr barShowAxis 0x7f040002
+int attr barShowAxisLabel 0x7f040003
+int attr barShowPopup 0x7f040004
+int attr barShowText 0x7f040005
+int attr lineAxisColor 0x7f040006
+int attr lineStrokeColor 0x7f040007
+int attr lineStrokeSpacing 0x7f040008
+int attr lineStrokeWidth 0x7f040009
+int attr lineUseDip 0x7f04000a
+int attr orientation 0x7f04000b
+int attr pieInnerCircleRatio 0x7f04000c
+int attr pieSlicePadding 0x7f04000d
+int drawable popup_black 0x7f090001
+int id horizontal 0x7f0c0001
+int id vertical 0x7f0c0002
+int[] styleable BarGraph { 0x7f040001, 0x7f040002, 0x7f040003, 0x7f040004, 0x7f040005, 0x7f04000b }
+int styleable BarGraph_barAxisColor 0
+int styleable BarGraph_barShowAxis 1
+int styleable BarGraph_barShowAxisLabel 2
+int styleable BarGraph_barShowPopup 3
+int styleable BarGraph_barShowText 4
+int styleable BarGraph_orientation 5
+int[] styleable LineGraph { 0x7f040006, 0x7f040007, 0x7f040008, 0x7f040009, 0x7f04000a }
+int styleable LineGraph_lineAxisColor 0
+int styleable LineGraph_lineStrokeColor 1
+int styleable LineGraph_lineStrokeSpacing 2
+int styleable LineGraph_lineStrokeWidth 3
+int styleable LineGraph_lineUseDip 4
+int[] styleable PieGraph { 0x7f04000c, 0x7f04000d }
+int styleable PieGraph_pieInnerCircleRatio 0
+int styleable PieGraph_pieSlicePadding 1

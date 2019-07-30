@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\libs\okhttp-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e32c6b4bee8b61f0de12b337c48df0f5df8caccc">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\okhttp-1.6.0_252b146be8efec98d3d73a6d8599256e269283db.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\libs\ePOS2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9ef0a60a74e7c134bf1b0adb39e385c4502879c1">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\ePOS2_c05709bdbe8e5e90897dd102da344c22b8485ea9.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\libs\okio-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\okio-1.0.0_acafc7437ca1bc230ff7ff3a8a47436e3a99d7df.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\exploded-aar\SVN BPOS.vendors@\TwoWayGrid\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="578c6f2e5b099db60fd78fad6749b6fafd1766ef">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\SVN BPOS.vendors@-TwoWayGrid-unspecified_ef5b92ca0f90008b1b631842a5324dc4220e4721.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\libs\picasso-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\picasso-2.2.0_aed92612175ab0c94b65f9052d6c5a680c852c94.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\exploded-aar\SVN BPOS.vendors@\holoGraphLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="41695eb3af2190ad3c94cb80406edddf510cc9c9">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\SVN BPOS.vendors@-holoGraphLibrary-unspecified_95249f22184b30439f75914dca09dc3fe81602b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\com.android.support-multidex-1.0.1_e1a00339e97aef3c9faf06d81af699545c32c522.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\exploded-aar\SVN BPOS\EnhancedListView-release\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bd8a8bcaad9d7d0ac0a9ffca14ddc4db42f54b61">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\SVN BPOS-EnhancedListView-release-unspecified_e8afce969cf68432a0c7bf5c7e6aa9b427f88e61.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\libs\retrofit-1.5.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="266695d62b6df0e1176af2be3634bcd0837d4fbd">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\retrofit-1.5.1_6781f0531ee8e81c3c2a4d7cfd8f4c0a27e0b446.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\support-v4-19.1.0_eaf2c8da32a5a01e88687a5479223ebe3b5cd68f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\exploded-aar\SVN BPOS\EnhancedListView-release\unspecified\jars\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="101e3990d8a323e4ceacb4db2ea0f54dbed7d661">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\nineoldandroids-2.4.0_f1daebdc9410b02becf0ebc4453dad835d0fd42c.jar" />
+    </item>
+    <item
+        jar="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\exploded-aar\SVN BPOS.vendors@\SlidingLayer\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dadcea472fc476eb5696b0f2e28ded53b4cb0951">
+        <dex dex="C:\Users\ESPCKTEO\Documents\FY17\B-POS project\SVN BPOS\app\build\intermediates\pre-dexed\release\SVN BPOS.vendors@-SlidingLayer-unspecified_caac3413abfedbe4dded10433d50e7846687d7ea.jar" />
+    </item>
+
+</items>

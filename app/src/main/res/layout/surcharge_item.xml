@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="3"
+              android:padding="12dp">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <TextView
+            android:id="@+id/text_view_surcharge_name"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:gravity="right"/>
+
+        <EditText
+            android:id="@+id/edit_text_surcharge_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:text="GST"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/text_view_surcharge_percentage"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Percentage: "
+            android:gravity="right"/>
+
+        <EditText
+            android:id="@+id/edit_text_surcharge_percentage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:text="7"/>
+    </LinearLayout>
+</LinearLayout>

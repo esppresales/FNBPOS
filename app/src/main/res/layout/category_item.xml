@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="Delete"
+            android:background="@drawable/button_background_epson"
+            android:textColor="@drawable/button_text_color_white"/>
+
+        <Button
+            android:id="@+id/button_disable"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/button_delete"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:text="Disable"
+            android:background="@drawable/button_background_epson"
+            android:textColor="@drawable/button_text_color_white"/>
+
+        <TextView
+            android:id="@+id/text_view_category"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Category:"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:id="@+id/edit_text_category"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/text_view_category"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:text="Food"/>
+
+        <Spinner
+            android:id="@+id/spinner_printer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/button_disable"
+            android:layout_toRightOf="@id/edit_text_category"
+            tools:listitem="@layout/spinner_item"
+            >
+        </Spinner>
+
+    </RelativeLayout>
+</LinearLayout>

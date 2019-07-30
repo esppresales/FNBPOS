@@ -1,0 +1,37 @@
+com.jess.ui
+attr cacheColorHint
+attr columnWidth
+attr drawSelectorOnTop
+attr gravity
+attr gridViewStyle
+attr horizontalSpacing
+attr listSelector
+attr numColumns
+attr numRows
+attr rowHeight
+attr scrollDirectionLandscape
+attr scrollDirectionPortrait
+attr scrollingCache
+attr smoothScrollbar
+attr stackFromBottom
+attr stretchMode
+attr transcriptMode
+attr verticalSpacing
+drawable epson_main
+drawable icon
+drawable spinner_black_76
+id alwaysScroll
+id auto_fit
+id columnWidth
+id disabled
+id gridview
+id horizontal
+id none
+id normal
+id spacingWidth
+id spacingWidthUniform
+id vertical
+layout main
+string app_name
+styleable TwoWayAbsListView cacheColorHint drawSelectorOnTop listSelector scrollDirectionLandscape scrollDirectionPortrait scrollingCache smoothScrollbar stackFromBottom transcriptMode
+styleable TwoWayGridView columnWidth gravity horizontalSpacing numColumns numRows rowHeight stretchMode verticalSpacing

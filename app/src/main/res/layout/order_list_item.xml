@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/ctn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/txt_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$24.00"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@id/txt_ordering_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DINE-IN"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ctn_right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/txt_order_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ORDER #234"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@id/txt_table_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TABLE NO. 4"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</RelativeLayout>

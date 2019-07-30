@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\SlidingLayer\src\main\res"/><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\SlidingLayer\build\generated\res\rs\release"/><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\SlidingLayer\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\SlidingLayer\src\main\res"><file path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\SlidingLayer\src\main\res\values\slidinglayer-attrs.xml" qualifiers=""><declare-styleable name="SlidingLayer">
+        <attr format="boolean" name="shadowDrawable"/>
+        <attr format="dimension" name="shadowWidth"/>
+        <attr format="boolean" name="closeOnTapEnabled"/>
+        <attr format="boolean" name="openOnTapEnabled"/>
+        <attr format="dimension" name="offsetWidth"/>
+        <attr format="enum" name="stickTo">
+            <enum name="auto" value="0"/>
+            <enum name="right" value="-1"/>
+            <enum name="left" value="-2"/>
+            <enum name="middle" value="-3"/>
+            <enum name="top" value="-4"/>
+            <enum name="bottom" value="-5"/>
+        </attr>
+    </declare-styleable></file></source><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\SlidingLayer\build\generated\res\rs\release"/><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\SlidingLayer\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\SlidingLayer\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\EPSON\Desktop\F&amp;B POS\SVN BPOS\vendors\SlidingLayer\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SlidingLayer">
+        <attr format="boolean" name="shadowDrawable"/>
+        <attr format="dimension" name="shadowWidth"/>
+        <attr format="boolean" name="closeOnTapEnabled"/>
+        <attr format="boolean" name="openOnTapEnabled"/>
+        <attr format="dimension" name="offsetWidth"/>
+        <attr format="enum" name="stickTo">
+            <enum name="auto" value="0"/>
+            <enum name="right" value="-1"/>
+            <enum name="left" value="-2"/>
+            <enum name="middle" value="-3"/>
+            <enum name="top" value="-4"/>
+            <enum name="bottom" value="-5"/>
+        </attr>
+    </declare-styleable></configuration></mergedItems></merger>

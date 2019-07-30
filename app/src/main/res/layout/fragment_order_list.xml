@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btn_open"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background"
+            android:checked="true"
+            android:textColor="@drawable/tab_text_color_white"
+            android:textOff="OPEN"
+            android:textOn="OPEN"
+            android:textSize="9pt"/>
+
+        <ToggleButton
+            android:id="@+id/btn_closed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background"
+            android:checked="false"
+            android:textColor="@drawable/tab_text_color_white"
+            android:textOff="CLOSED"
+            android:textOn="CLOSED"
+            android:textSize="9pt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_subheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btn_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background"
+            android:checked="true"
+            android:textColor="@drawable/tab_text_color_white"
+            android:textOff="ALL"
+            android:textOn="ALL"
+            android:textSize="8pt"/>
+
+        <ToggleButton
+            android:id="@+id/btn_undelivered"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background"
+            android:checked="false"
+            android:textColor="@drawable/tab_text_color_white"
+            android:textOff="UNDELIVERED"
+            android:textOn="UNDELIVERED"
+            android:textSize="8pt"/>
+
+        <ToggleButton
+            android:id="@+id/btn_unpaid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background"
+            android:checked="false"
+            android:textColor="@drawable/tab_text_color_white"
+            android:textOff="UNPAID"
+            android:textOn="UNPAID"
+            android:textSize="8pt"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <ListView
+        android:id="@+id/list_view_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

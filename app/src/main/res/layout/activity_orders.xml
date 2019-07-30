@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragment_order_list"
+        class="com.gettingreal.bpos.OrderListFragment"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        tools:layout="@layout/fragment_order_list">
+    </fragment>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/fragment_order_list"
+        android:background="#333333"/>
+
+    <fragment
+        android:id="@+id/fragment_order_list_detail"
+        class="com.gettingreal.bpos.OrderListDetailFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/divider"
+        tools:layout="@layout/fragment_order_list_detail">
+    </fragment>
+
+    <com.slidinglayer.SlidingLayer
+        android:id="@+id/slidingLayer"
+        xmlns:slidingLayer="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        slidingLayer:stickTo="left">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/listview_options"
+                android:layout_width="@dimen/menu_width"
+                android:layout_height="match_parent"
+                android:background="#ffffff"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sidebar_shadow"
+                android:onClick="dismissSlidingLayer"/>
+        </LinearLayout>
+    </com.slidinglayer.SlidingLayer>
+</RelativeLayout>

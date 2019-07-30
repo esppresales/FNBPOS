@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/epson">
+
+        <Button
+            android:id="@+id/button_save_report"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_background_epson"
+            android:text="Save Report"
+            android:textColor="@drawable/button_text_color_white"/>
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@id/button_add"
+            android:gravity="center_vertical"
+            android:text="30 Feb 2014 Report"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No. of Transactions"
+                android:padding="12dp"
+                android:background="#dddddd"/>
+            <com.echo.holographlibrary.BarGraph
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/bargraph_transactions"
+                android:layout_margin="40dp"
+                app:barAxisColor="#800000FF"
+                app:barShowText="true"
+                app:barShowAxis="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order Amount"
+                android:padding="12dp"
+                android:background="#dddddd"/>
+            <com.echo.holographlibrary.BarGraph
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/bargraph_amount"
+                android:layout_margin="40dp"
+                app:barAxisColor="#800000FF"
+                app:barShowText="true"
+                app:barShowAxis="true"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="40dp"
+                android:background="#cccccc"
+                android:layout_marginBottom="40dp">
+                <TextView
+                    android:id="@+id/txt_detail1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Order Amt: $4,800"/>
+                <TextView
+                    android:id="@+id/txt_detail2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total No. of Transactions: 350"/>
+                <TextView
+                    android:id="@+id/txt_detail3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Avg Order Amt Per Transaction: $10.50"/>
+                <TextView
+                    android:id="@+id/txt_detail4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Avg No. of Transactions Per Day: 400"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Products"
+                android:padding="12dp"
+                android:background="#dddddd"/>
+            <com.echo.holographlibrary.BarGraph
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/bargraph_products"
+                android:layout_margin="40dp"
+                app:barAxisColor="#800000FF"
+                app:barShowText="true"
+                app:barShowAxis="true"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

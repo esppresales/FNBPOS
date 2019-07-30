@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/epson">
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_background_epson"
+            android:text="+"
+            android:textColor="@drawable/button_text_color_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@id/button_add"
+            android:gravity="center_vertical"
+            android:text="PRINTER MANAGEMENT"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/titletext_Rece_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cashier Printer"
+            android:textSize="18sp"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/text_Rece_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cashier Printer:"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <Spinner
+            android:id="@+id/spinner_printerlist"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/text_Rece_view_name"
+            />
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <CheckBox
+        android:id="@+id/drawer_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cashier Drawer"
+      />
+    <CheckBox
+        android:id="@+id/display_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cashier Display"
+        android:layout_toRightOf="@+id/drawer_check"
+        />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/gray" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/titleReceipt_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paper Size Setting"
+            android:textSize="18sp"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/Receipt_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receipt Print Size :"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+
+        <RadioGroup
+            android:id="@+id/CashierRadioGroup"
+            android:checkedButton="@+id/printsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/Receipt_view_name"
+       >
+
+        <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/Receipt58MM"
+             android:text="58MM" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Receipt88MM"
+            android:text="80MM" />
+    </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/OrderItemPrint_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Items Print Size :"
+            android:layout_marginLeft="14dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/OrderRadioGroup"
+            android:checkedButton="@+id/printsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/OrderItemPrint_view_name"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/order58MM"
+                android:text="58MM" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/order88MM"
+                android:text="80MM" />
+        </RadioGroup>
+    </RelativeLayout>
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/gray" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/titletext_Print_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available Printers"
+            android:textSize="18sp"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/list_view_printers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:listitem="@layout/printer_item"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="epson">#004d98</color>
+    <color name="epson_dark">#032c6f</color>
+    <color name="gray">#bbbbbb</color>
+    <color name="translucent_gray">#99bbbbbb</color>
+    <color name="white">#ffffff</color>
+</resources>

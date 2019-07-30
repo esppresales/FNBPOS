@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btn_eod_report"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background"
+            android:checked="true"
+            android:textColor="@drawable/tab_text_color_white"
+            android:textOff="EOD Report"
+            android:textOn="EOD Report"
+            android:textSize="9pt"/>
+
+        <ToggleButton
+            android:id="@+id/btn_monthly_report"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_background"
+            android:checked="false"
+            android:textColor="@drawable/tab_text_color_white"
+            android:textOff="Monthly Report"
+            android:textOn="Monthly Report"
+            android:textSize="9pt"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view_reports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

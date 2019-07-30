@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:3:2-23
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:5:2-27
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:4:2-25
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:7:2-10:16
+	android:label
+		ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:9:3-35
+	android:icon
+		ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml:8:3-38
+uses-sdk
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+		ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+		ADDED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EPSON\Desktop\F&B POS\SVN BPOS\vendors\TwoWayGrid\src\main\AndroidManifest.xml

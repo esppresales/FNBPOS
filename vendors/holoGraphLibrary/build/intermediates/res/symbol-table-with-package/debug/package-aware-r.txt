@@ -1,0 +1,20 @@
+com.echo.holographlibrary
+attr barAxisColor
+attr barShowAxis
+attr barShowAxisLabel
+attr barShowPopup
+attr barShowText
+attr lineAxisColor
+attr lineStrokeColor
+attr lineStrokeSpacing
+attr lineStrokeWidth
+attr lineUseDip
+attr orientation
+attr pieInnerCircleRatio
+attr pieSlicePadding
+drawable popup_black
+id horizontal
+id vertical
+styleable BarGraph barAxisColor barShowAxis barShowAxisLabel barShowPopup barShowText orientation
+styleable LineGraph lineAxisColor lineStrokeColor lineStrokeSpacing lineStrokeWidth lineUseDip
+styleable PieGraph pieInnerCircleRatio pieSlicePadding

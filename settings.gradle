@@ -1,0 +1,4 @@
+include ':vendors/:holoGraphLibrary', ':EnhancedListView-release'
+include ':vendors/:SlidingLayer'
+include ':vendors/:TwoWayGrid'
+include ':app'
